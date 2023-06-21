@@ -5,6 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container{
     width: 100%;
@@ -54,4 +60,9 @@
     height: 60px;
     background: rgb(219, 217, 217);
     cursor: pointer;
+}
+
+h1{
+    position: absolute;
+    top: 15%;
 }
